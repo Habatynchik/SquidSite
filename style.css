@@ -8,7 +8,7 @@
     height: 100vh;
     z-index: -1;
     position: fixed;
-    background-image: url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1wAhZy.img?w=640&h=318&m=6") ;
+    background-image: url("https://img-s-msn-com.akamaized.net/tenant/amp/entityid/AA1wAhZy.img?w=640&h=318&m=6");
     background-size: 100vw;
     background-position: center;
 }
@@ -51,5 +51,13 @@
     .background {
         transform: rotate(90deg) scale(2);
         height: 100vh;
+    }
+
+    .main {
+        padding: 0px 0px;
+    }
+
+    body {
+        background-color: rgba(136, 30, 30, 0.909);
     }
 }
